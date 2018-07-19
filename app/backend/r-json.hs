@@ -8,7 +8,7 @@
       QUERY_STRING=query=kegg_titles ./r-json.hs
 -}
 
-import Prelude hiding (catch)
+import Prelude -- hiding (catch)
 import Control.Applicative ((<$>))
 import Data.Maybe (fromMaybe,maybeToList)
 import Data.List
